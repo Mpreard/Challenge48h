@@ -48,8 +48,14 @@ Groupe 7
 	étape 1 :
 	
 Groupe 6
-	étape 1 : 51°50'55.1"N 0°33'16.6"W -> Giant Lion
-	étape 2 :
+	étape 1: Cassoulet -> M
+	étape 2: Schneider  -> T
+	étape 3: Lion -> B
+	étape 3 fin : TGlvbg== -> J
+	étape 4 : password -> D
+	étape 5 : ABACAPGGPS -> J
+	MTBJDJ
+	FINI 00h45
 
 Groupe 5 
     étape 1 : Button display none
