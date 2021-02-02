@@ -50,5 +50,23 @@ Groupe 6
 	étape 1 : 51°50'55.1"N 0°33'16.6"W -> Giant Lion
 	étape 2 :
 
+<<<<<<< HEAD
 Groupe 5 
 	étape 1 : Button display none
+=======
+	Groupe 5 
+    étape 1 : Button display none
+
+Groupe 3: 
+8 mot de passe:
+1-x8h3LcBU3
+2-1594973682
+3-#S/4L#nKj$Mc6p|7f4C4
+4-rouge
+5-*G#esc<A4V2c2J]Q4<2e
+6-D5G4DS86JU5UI2
+7-9{,n27JcGb
+8-ftX2c+4R[2
+code final: syZY43Jf4
+FINI 23h34
+>>>>>>> 7639d3ca7bcb7c2d1413b1b53be3bdc4372a791e
