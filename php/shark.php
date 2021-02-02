@@ -1,33 +1,31 @@
 <?php 
     session_start();
+    $answer = $_GET['answer_shark'];
 
-    $_SESSION['ip_address'] = $_SERVER['REMOTE_ADDR'];
-    $ip_caracteres = str_replace(".", "",$_SESSION['ip_address']);
-    $ip_last_caracteres = substr($ip_caracteres, -4);
-    
-    if($ip_last_caracteres === htmlspecialchars($_GET['answer_adress'])){
-        header('Location: shark.php');
+    if($answer === 'pass'){
+        header('Location: rubikscube.php');
     }
 ?>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Adresse</title>
+    <title>Shark</title>
     <link href="../layout/bootstrap/css/bootstrap.css" rel="stylesheet">
   </head>
 <body>
-    
-    <form method="get" action="adresse.php" class="container IP">
+    <form method="GET" action="shark.php" class="container">
         <div class="row" style="margin-top: 40%;">
             <div class="card text-center">
                 <div class="card-header">
-                    L'adresse
+                    Shark
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">C'est bientôt fini ! </h5>
+                    <h5 class="card-title">Allez vous réussir à récupérer les bonnes informations ? </h5>
+                    <a style="margin:2%;" type="button" href="../layout/file/twitter-pwd.pcap" download="twitter-pwd.pcap"><button type="button" class="btn btn-warning">Télécharger moi !</button></a>
+
                     <div class="form-floating">
-                        <input type="text" placeholder="Votre réponse doit contenir les 4 derniers chiffres" class="form-control" id="floatingPassword" name="answer_adress" maxlength="4" required>
-                        <label for="floatingPassword">Votre réponse doit contenir les 4 derniers chiffres</label>
+                        <input type="text" placeholder="4 premier caractères du mot de passe " class="form-control" id="floatingPassword" name="answer_shark" maxlength="4" required>
+                        <label for="floatingPassword">4 premier caractères du mot de passe</label>
                     </div>
                 </div>
             <div class="card-footer text-muted">
@@ -37,7 +35,7 @@
     </form>
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start" style="margin-top: 2%;">
-        <a href="../index.php">
+        <a href="adresse.php">
             <button class="btn btn-dark" type="button"><i class="fas fa-arrow-left"></i> Précédent</button>
         </a>
     </div>

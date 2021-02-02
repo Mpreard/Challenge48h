@@ -2,6 +2,7 @@
   session_start();
 
   $answer = 'JRP1';
+  
   if($answer === htmlspecialchars($_GET['answer_simon'])){
     $_SESSION['enigme1'] = "Validé";
     header('Location: ../index.php');
@@ -33,7 +34,7 @@
 </head>
 
 <body>
-  <form method="get" action="simon.php" class="container IP">
+  <form method="get" action="simon.php" class="container">
     <div class="row" style="margin-top: 10%;">
         <div class="card text-center">
             <div class="card-header">
