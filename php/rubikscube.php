@@ -1,37 +1,18 @@
-<?php  
-
-session_start();
-
-?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../layout/css/rubikscube.css">
-    <script type="text/javascript" src="../layout/js/rubikscube.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-<div id="wrapD3Cube">
-    <div id="D3Cube">
-        <div id="side1"></div>
-        <div id="side2"></div>
-        <div id="side3"></div>
-        <div id="side4"></div>
-        <div id="side5"></div>
-        <div id="side6"></div>
-    </div>
-</div>
-
-    <a onclick="turnLeft()">Left</a>
-    <a onclick="turnRight()">Right</a> <br />
-    <a onclick="flipCube()">Flip</a>
-
-</body>
-
-
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="../layout/js/oz.js"></script>
+		<script src="../layout/js/css3.oz.js"></script>
+		<script src="../layout/js/rubikscube.js"></script>
+		<script src="../layout/js/quaternion.js"></script>
+		<link rel="stylesheet" href="../layout/css/rubikscube.css" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+	</head>
+	<body onload="new Rubik()">
+        <h1>Le Rubik's cube du magicien d'Oz. L'ancienne console de salon</h1>
+       <!-- Tu pense avoir le Cube dans l'âme toi ? Oz pour voir -->
+	</body>
 </html>
-
