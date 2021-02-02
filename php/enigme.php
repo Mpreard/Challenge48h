@@ -2,28 +2,7 @@
   // Se connecter à la base de données
   include("db_connect.php");
   $request_method = $_SERVER["REQUEST_METHOD"];
-
-  switch($request_method)
-  {
-    case 'GET':
-      if(!empty($_GET["object"]))
-      {
-        // Récupérer un seul produit
-        $object = intval($_GET["object"]);
-        getEnigme($object);
-      }
-      else
-      {
-        // Récupérer tous les produits
-        getEnigme();
-      }
-      break;
-    default:
-      // Requête invalide
-      header("HTTP/1.0 405 Method Not Allowed");
-      break;
-  }
-
+  
   function getEnigme()
   {
     global $conn;
@@ -38,4 +17,14 @@
     echo json_encode($response, JSON_PRETTY_PRINT);
   }
 
+  if(!empty($_GET["objects"])){
+  // Récupérer un seul produit
+  $objects = intval($_GET["objects"]);
+  getEnigme($objects);
+  } else {
+  // Récupérer tous les produits
+  getEnigme();
+  }
+ 
+  echo('ouais y\'a tout le monde squatte dans le vip');
 ?>
