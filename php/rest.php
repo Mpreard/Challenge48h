@@ -6,6 +6,7 @@
   <head>
     <title>Rest</title>
     <link href="../layout/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="layout/css/main.css" rel="stylesheet">
   </head>
 <body>
 <body>
@@ -31,8 +32,6 @@
   </a>
 </div>
 </body>
-
-</body>
 <script type="text/javascript" src="../layout/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="../layout/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../layout/js/jquery.js"></script>
@@ -40,5 +39,5 @@
 </html>
 
 <div style="display: none;" class="majuscule to miniscule"> 
-        <p>..-. .- .. .-. . / ..- -. . / .-. . --.- ..- . - . / .- / .-.. .----. ..- .-. .-.. / ... ..- .. ...- .- -. - . / ---... / .... - - .--. ---... -..-. -..-. .-.. --- -.-. .- .-.. .... --- ... - ---... ---.. .---- -..-. -.-. .... .- .-.. .-.. . -. --. . ....- ---.. .... -..-. .- .--. .. -..-. . -. .. --. -- . .-.-.- .--. .... .--.</p>
-    </div>
+  <p>..-. .- .. .-. . / ..- -. . / .-. . --.- ..- . - . / .- / .-.. .----. ..- .-. .-.. / ... ..- .. ...- .- -. - . / ---... / .... - - .--. ---... -..-. -..-. .-.. --- -.-. .- .-.. .... --- ... - ---... ---.. .---- -..-. -.-. .... .- .-.. .-.. . -. --. . ....- ---.. .... -..-. .- .--. .. -..-. . -. .. --. -- . .-.-.- .--. .... .--.</p>
+</div>
