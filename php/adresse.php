@@ -5,6 +5,11 @@
     $ip_caracteres = str_replace(".", "",$_SESSION['ip_address']);
     $ip_last_caracteres = substr($ip_caracteres, -4);
     
+    echo($ip_last_caracteres);
+    echo($ip_last_caracteres);
+    echo($ip_last_caracteres);
+    echo($ip_last_caracteres);
+    
     if($ip_last_caracteres === htmlspecialchars($_GET['answer_adress'])){
         header('Location: shark.php');
     }
