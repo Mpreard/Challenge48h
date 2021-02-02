@@ -14,6 +14,7 @@
   <head>
     <title>Equation</title>
     <link href="../layout/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../layout/css/main.css" rel="stylesheet">
   </head>
 <body>
     <form method="POST" action="equation.php" class="container">

@@ -13,6 +13,7 @@ $password = $reponse->fetch();
   <head>
     <title>Password</title>
     <link href="../layout/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../layout/css/main.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/16ae438362.js" crossorigin="anonymous"></script>
   </head>
 <body>
