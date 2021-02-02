@@ -8,7 +8,9 @@ if(empty($user_answer)){
 }
 
 if($user_answer === 'JRP1DUELP4ZK'){
-    echo('<h1>Félicitation. Vous avez gagné</h1>');
+    header ("Content-type: image/jpeg");
+    $image = imagecreatefromjpeg("victoire.jpg");
+    imagejpeg($image);
 } else {
     echo('<h1>Vous avez perdu</h1>');
 }
