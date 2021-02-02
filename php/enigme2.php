@@ -18,7 +18,7 @@
 <body>
     
     <form method="get" action="enigme2.php" class="container">
-        <div class="row" style="margin-top: 40%;">
+        <div class="row" style="margin-top: 20%;">
             <div class="card text-center">
                 <div class="card-header">
                     Question finale

@@ -18,6 +18,7 @@
   </div>
   <div class="card-body">
     <h5 class="card-title">Rest ?</h5>
+    <p class="text-muted">Cliquer sur suivant sans rien faire n'est peut être pas la meilleure idée</p>
   </div>
   <div class="card-footer text-muted">
   </div>
@@ -39,5 +40,5 @@
 </html>
 
 <div style="display: none;" class="majuscule to miniscule"> 
-  <p>..-. .- .. .-. . / ..- -. . / .-. . --.- ..- . - . / .- / .-.. .----. ..- .-. .-.. / ... ..- .. ...- .- -. - . / ---... / .... - - .--. ---... -..-. -..-. .-.. --- -.-. .- .-.. .... --- ... - ---... ---.. .---- -..-. -.-. .... .- .-.. .-.. . -. --. . ....- ---.. .... -..-. .- .--. .. -..-. . -. .. --. -- . .-.-.- .--. .... .--.</p>
+  <p>/ -..-. .- .--. .. -..-. . -. .. --. -- . .-.-.- .--. .... .--.<p>
 </div>
