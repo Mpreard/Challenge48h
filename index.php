@@ -1,6 +1,5 @@
 <?php 
 session_start();
-
 ?>
 
 <!DOCTYPE html>
@@ -15,8 +14,8 @@ session_start();
       <div class="row">
         <div class="col" style="text-align: center;">
           <?php 
-            if(!empty($_SESSION['enigme1'])){echo('<a href="php/password.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 1 <i class="fas fa-check"></i></button></a>');}
-            else{echo('<a href="php/password.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 1 <span class="badge bg-success">Nouveau</span></button></a>');}
+            if(!empty($_SESSION['enigme1'])){echo('<a href="php/rest.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 1 <i class="fas fa-check"></i></button></a>');}
+            else{echo('<a href="php/rest.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 1 <span class="badge bg-success">Nouveau</span></button></a>');}
           ?>
         </div>
         <div class="col" style="text-align: center;">
