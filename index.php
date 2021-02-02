@@ -1,6 +1,5 @@
 <?php 
 session_start();
-
 ?>
 
 <!DOCTYPE html>
@@ -10,29 +9,30 @@ session_start();
     <link href="layout/bootstrap/css/bootstrap.css" rel="stylesheet">
   </head>
   <body>
-    
-    <div class="container">
-      <div class="row">
-        <div class="col" style="text-align: center;">
+  <nav class="navbar navbar-dark bg-dark "> 
+    <div class="container"  style=" justify-content:space-evenly">
+      <div class="row" >
+        <div class="col" >
           <?php 
-            if(!empty($_SESSION['enigme1'])){echo('<a href="php/password.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 1 <i class="fas fa-check"></i></button></a>');}
-            else{echo('<a href="php/password.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 1 <span class="badge bg-success">Nouveau</span></button></a>');}
+            if(!empty($_SESSION['enigme1'])){echo('<a href="php/rest.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 1 <i class="fas fa-check"></i></button></a>');}
+            else{echo('<a href="php/rest.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 1 <span class="badge bg-success">Nouveau</span></button></a>');}
           ?>
         </div>
-        <div class="col" style="text-align: center;">
+        <div class="col" >
           <?php 
             if(!empty($_SESSION['enigme2'])){echo('<a href="html/fonction.html" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 2 <i class="fas fa-check"></i></button></a>');}
             else{echo('<a href="html/fonction.html" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 2 <span class="badge bg-success">Nouveau</span></button></a>');}
           ?>
         </div>
-        <div class="col" style="text-align: center">
+        <div class="col" >
           <?php
-            if(!empty($_SESSION['enigme3'])){echo('<a href="php/IP.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 3 <i class="fas fa-check"></i></button></a>');}
-            else{echo('<a href="php/IP.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 3 <span class="badge bg-success">Nouveau</span></button></a>');}
+            if(!empty($_SESSION['enigme3'])){echo('<a href="php/adresse.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 3 <i class="fas fa-check"></i></button></a>');}
+            else{echo('<a href="php/adresse.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 3 <span class="badge bg-success">Nouveau</span></button></a>');}
           ?>
         </div>
       </div>
     </div>
+    </nav>
     <form method="post" action="php/result.php" class="container" style="margin-bottom : 5%;">
       <div class="row" style="margin-top: 30%;">
         <div class="card text-center">
@@ -40,7 +40,7 @@ session_start();
               Réponse finale
           </div>
           <div class="card-body">
-              <h5 class="card-title">Serez vous retrouver tous les indices ?  </h5>
+              <h5 class="card-title">Saurez vous retrouver tous les indices ?  </h5>
               <div class="form-floating">
                   <input type="text" placeholder="Votre réponse" class="form-control" id="floating" name="final_answer" required>
                   <label for="floating">Réponse</label>
