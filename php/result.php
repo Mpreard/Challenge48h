@@ -9,7 +9,7 @@ if(empty($user_answer)){
 
 if($user_answer === 'JRP1DUELP4ZK'){
     header ("Content-type: image/jpeg");
-    $image = imagecreatefromjpeg("../layout/img/victoire.jpg");
+    $image = imagecreatefromjpeg("victoire.jpg");
     imagejpeg($image);
 
 } else {
