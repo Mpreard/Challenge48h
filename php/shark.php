@@ -35,7 +35,7 @@
     </form>
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start" style="margin-top: 2%;">
-        <a href="../index.php">
+        <a href="adresse.php">
             <button class="btn btn-dark" type="button"><i class="fas fa-arrow-left"></i> Précédent</button>
         </a>
     </div>
