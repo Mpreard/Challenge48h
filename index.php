@@ -40,7 +40,7 @@ session_start();
               Réponse finale
           </div>
           <div class="card-body">
-              <h5 class="card-title">Serez vous retrouver tous les indices ?  </h5>
+              <h5 class="card-title">Saurez vous retrouver tous les indices ?  </h5>
               <div class="form-floating">
                   <input type="text" placeholder="Votre réponse" class="form-control" id="floating" name="final_answer" required>
                   <label for="floating">Réponse</label>
