@@ -218,12 +218,48 @@ function winGame() {
   turnCounter.innerHTML = "WIN!";
   on = false;
   win = true;
-  //alert('Bravo ! ');
-  swal("Bravo !", "Rendez-vous sur: https://www.dropt.org/Rowling_J_K_HP01_Harry_Potter_et_la_Pierre_Philosophale.pdf", "success");
+  swal("Bravo !", "Rendez-vous sur 62PdCouTvNPEAghD4Gqv2vq1gDTVqnrhjtrYD7WkFbVZoBSH6as3qyuvjVXPCu7oxH2A9y7bjDWrHFtz7gyMg3ccdXiHKpEMEiqhAXWXGiB2UeH", "success");
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//alert('Bravo, Base58');
 
 

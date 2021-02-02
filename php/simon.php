@@ -36,22 +36,23 @@
 <body>
   <form method="get" action="simon.php" class="container">
     <div class="row" style="margin-top: 10%;">
-        <div class="card text-center">
-            <div class="card-header">
-              Le simon
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Serez vous retrouver tous les indices ?  </h5>
-                <p>Tricher est parfois la seule solution... =D</p>
-                <div class="form-floating">
+      <div class="card text-center">
+        <div class="card-header">
+            Le simon
+          </div>
+          <div class="card-body">
+              <h5 class="card-title">Serez vous retrouver tous les indices ?  </h5>
+              <p>Tricher est parfois la seule solution... =D</p>
+              <div class="form-floating">
                 <input type="text" placeholder="Votre réponse" class="form-control" id="floatingReponse" name="answer_simon" required>
                 <label for="floatingReponse">Votre réponse </label>
               </div>
-            </div>
+          </div>
         <div class="card-footer text-muted">
             <input class="btn btn-secondary" type="submit"></button>
         </div>
     </div>
+  </div>
   </form>
 
   <div id="outer-circle">
@@ -71,11 +72,16 @@
       </div>
     </div>
   </div>
-  <div class="d-grid gap-2 d-md-flex justify-content-md-start" style="margin-top: 2%;">
-    <a href="password.php">
-        <button class="btn btn-dark" type="button"><i class="fas fa-arrow-left"></i> Précédent</button>
-    </a>
-</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start" style="margin-top: 2%;">
+        <a href="password.php">
+          <button class="btn btn-dark" type="button"><i class="fas fa-arrow-left"></i> Précédent</button>
+        </a>
+      </div>
+    </div>
+  </div>
 
 <script  src="../layout/js/simon.js"></script>
 <script type="text/javascript" src="../layout/bootstrap/js/bootstrap.js"></script>
