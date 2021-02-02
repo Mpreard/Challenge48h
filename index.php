@@ -10,22 +10,22 @@ session_start();
     <link href="layout/css/main.css" rel="stylesheet">
   </head>
   <body>
-    
-    <div class="container">
-      <div class="row">
-        <div class="col" style="text-align: center;">
+  <nav class="navbar navbar-dark bg-dark "> 
+    <div class="container"  style=" justify-content:space-evenly">
+      <div class="row" >
+        <div class="col" >
           <?php 
             if(!empty($_SESSION['enigme1'])){echo('<a href="php/rest.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 1 <i class="fas fa-check"></i></button></a>');}
             else{echo('<a href="php/rest.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 1 <span class="badge bg-success">Nouveau</span></button></a>');}
           ?>
         </div>
-        <div class="col" style="text-align: center;">
+        <div class="col" >
           <?php 
             if(!empty($_SESSION['enigme2'])){echo('<a href="html/fonction.html" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 2 <i class="fas fa-check"></i></button></a>');}
             else{echo('<a href="html/fonction.html" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 2 <span class="badge bg-success">Nouveau</span></button></a>');}
           ?>
         </div>
-        <div class="col" style="text-align: center">
+        <div class="col" >
           <?php
             if(!empty($_SESSION['enigme3'])){echo('<a href="php/adresse.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 3 <i class="fas fa-check"></i></button></a>');}
             else{echo('<a href="php/adresse.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 3 <span class="badge bg-success">Nouveau</span></button></a>');}
@@ -33,6 +33,7 @@ session_start();
         </div>
       </div>
     </div>
+    </nav>
     <form method="post" action="php/result.php" class="container" style="margin-bottom : 5%;">
       <div class="row" style="margin-top: 30%;">
         <div class="card text-center">
