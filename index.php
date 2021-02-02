@@ -27,8 +27,8 @@ session_start();
         </div>
         <div class="col" style="text-align: center">
           <?php
-            if(!empty($_SESSION['enigme3'])){echo('<a href="php/IP.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 3 <i class="fas fa-check"></i></button></a>');}
-            else{echo('<a href="php/IP.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 3 <span class="badge bg-success">Nouveau</span></button></a>');}
+            if(!empty($_SESSION['enigme3'])){echo('<a href="php/adresse.php" ><button type="button" class="btn btn-success btn-lg btn-block">Etape 3 <i class="fas fa-check"></i></button></a>');}
+            else{echo('<a href="php/adresse.php" ><button type="button" class="btn btn-secondary btn-lg btn-block">Etape 3 <span class="badge bg-success">Nouveau</span></button></a>');}
           ?>
         </div>
       </div>
@@ -40,7 +40,7 @@ session_start();
               Réponse finale
           </div>
           <div class="card-body">
-              <h5 class="card-title">Serez vous retrouver tous les indices ?  </h5>
+              <h5 class="card-title">Saurez vous retrouver tous les indices ?  </h5>
               <div class="form-floating">
                   <input type="text" placeholder="Votre réponse" class="form-control" id="floating" name="final_answer" required>
                   <label for="floating">Réponse</label>
