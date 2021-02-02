@@ -11,7 +11,8 @@ Groupe 12
 	étape 2 : ynovinformatique
 	
 Groupe 11
-	étape 1 : 
+	étape 1 : H4CK-TH3-CH4LL3NG3-N00B
+	FINI 00h04
 
 Groupe 10
 	étape 1 : vache-lol
@@ -50,11 +51,7 @@ Groupe 6
 	étape 1 : 51°50'55.1"N 0°33'16.6"W -> Giant Lion
 	étape 2 :
 
-<<<<<<< HEAD
 Groupe 5 
-	étape 1 : Button display none
-=======
-	Groupe 5 
     étape 1 : Button display none
 
 Groupe 3: 
@@ -69,4 +66,5 @@ Groupe 3:
 8-ftX2c+4R[2
 code final: syZY43Jf4
 FINI 23h34
+
 >>>>>>> 7639d3ca7bcb7c2d1413b1b53be3bdc4372a791e
