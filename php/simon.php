@@ -17,6 +17,7 @@
   <title>Simon Game</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../layout/css/simon.css">
+  <link href="../layout/css/main.css" rel="stylesheet">
   <link href="../layout/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <audio id="clip1">

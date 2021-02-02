@@ -11,6 +11,7 @@
   <head>
     <title>Shark</title>
     <link href="../layout/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../layout/css/main.css" rel="stylesheet">
   </head>
 <body>
     <form method="GET" action="shark.php" class="container">
