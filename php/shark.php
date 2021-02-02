@@ -22,16 +22,15 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Allez vous réussir à récupérer les bonnes informations ? </h5>
-                    <a style="margin:2%;" type="button" href="../layout/file/twitter-pwd.pcap" download="twitter-pwd.pcap"><button type="button" class="btn btn-warning">Télécharger moi !</button></a>
-
                     <div class="form-floating">
                         <input type="text" placeholder="4 premier caractères du mot de passe " class="form-control" id="floatingPassword" name="answer_shark" maxlength="4" required>
                         <label for="floatingPassword">4 premiers caractères du mot de passe</label>
                     </div>
                 </div>
-            <div class="card-footer text-muted">
-                <input class="btn btn-secondary" type="submit"></button>
-            </div>
+                <div class="card-footer text-muted">
+                    <input class="btn btn-secondary" type="submit"></button>
+                    <a style="margin:2%;" type="button" href="../layout/file/twitter-pwd.pcap" download="twitter-pwd.pcap"><button type="button" class="btn btn-warning">Télécharger moi !</button></a>
+                </div>
         </div>
     </form>
 

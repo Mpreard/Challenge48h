@@ -18,7 +18,7 @@
 <body>
     
     <form method="get" action="enigme2.php" class="container">
-        <div class="row" style="margin-top: 40%;">
+        <div class="row" style="margin-top: 20%;">
             <div class="card text-center">
                 <div class="card-header">
                     Question finale
@@ -27,7 +27,7 @@
                     <h5 class="card-title">C'est bientôt fini ! Rendez-vous sur l'url trouvée</h5>
                     <h6 class="card-subtitle mb-2 text-muted mb-4">Rassemblez tous les indices fournis </h6>
                     <div class="form-floating">
-                        <input type="text" placeholder="Votre réponse doit contenir 4 chiffres" class="form-control" id="floating" name="final_answer" maxlength="4" required>
+                        <input type="text" placeholder="Votre réponse doit contenir 4 caractères" class="form-control" id="floating" name="final_answer" maxlength="4" required>
                         <label for="floating">Votre réponse doit contenir 4 chiffres</label>
                     </div>
                 </div>
