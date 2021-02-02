@@ -41,7 +41,7 @@
             Le simon
           </div>
           <div class="card-body">
-              <h5 class="card-title">Serez vous retrouver tous les indices ?  </h5>
+              <h5 class="card-title">Saurez vous retrouver tous les indices ?  </h5>
               <p>Tricher est parfois la seule solution... =D</p>
               <div class="form-floating">
                 <input type="text" placeholder="Votre réponse" class="form-control" id="floatingReponse" name="answer_simon" required>
