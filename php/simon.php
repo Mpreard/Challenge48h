@@ -33,7 +33,7 @@
 </head>
 
 <body>
-  <form method="get" action="simon.php" class="container IP">
+  <form method="get" action="simon.php" class="container">
     <div class="row" style="margin-top: 10%;">
         <div class="card text-center">
             <div class="card-header">
