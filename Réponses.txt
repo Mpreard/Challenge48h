@@ -20,7 +20,7 @@ Groupe 9
 	
 	UmVsaXNleiBiaWVuIGxhIGNvbnNpZ25lIHBvdXIgbGUgcHJlc2lkZW50 	-> Relisez bien la consigne pour le president
 	QVNDSUkgdG8gdGV4dCwgcmVzdWx0IDMgY2hhcg==   					-> ASCII to text, result 3 char
-																->081 086 078 068 083 085 107 103 100 071 056 103 
+																->	081 086 078 068 083 085 107 103 100 071 056 103 
 																	100 071 086 052 100 067 119 103 099 109 086 
 																	122 100 087 120 048 073 068 077 103 089 050 104 104 
 																	099 103 061 061
@@ -36,4 +36,5 @@ Groupe 8
 	étape 5 : href="/superposition"
 	étape 6 : entrez gg
 	étape 7 : href="/F1n@L"
+	FINI 20h32
 	
