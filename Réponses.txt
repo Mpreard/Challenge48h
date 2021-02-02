@@ -4,6 +4,7 @@ Groupe 13
 
 Groupe 12
 	étape 1 : decrypt(eW5vdmluZm9ybWF0aXF1ZQ==)
+	étape 2 : ynovinformatique
 	
 Groupe 11
 	étape 1 : 
@@ -37,4 +38,10 @@ Groupe 8
 	étape 6 : entrez gg
 	étape 7 : href="/F1n@L"
 	FINI 20h32
+
+Groupe 7
+	étape 1 :
 	
+Groupe 6
+	étape 1 : 51°50'55.1"N 0°33'16.6"W -> Giant Lion
+	étape 2 :
