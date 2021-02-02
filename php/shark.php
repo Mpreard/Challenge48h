@@ -25,7 +25,7 @@
 
                     <div class="form-floating">
                         <input type="text" placeholder="4 premier caractères du mot de passe " class="form-control" id="floatingPassword" name="answer_shark" maxlength="4" required>
-                        <label for="floatingPassword">4 premier caractères du mot de passe</label>
+                        <label for="floatingPassword">4 premiers caractères du mot de passe</label>
                     </div>
                 </div>
             <div class="card-footer text-muted">

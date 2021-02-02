@@ -23,7 +23,7 @@
                     Question finale
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">C'est bientôt fini ! Rendez vous sur l'url trouvée</h5>
+                    <h5 class="card-title">C'est bientôt fini ! Rendez-vous sur l'url trouvée</h5>
                     <h6 class="card-subtitle mb-2 text-muted mb-4">Rassemblez tous les indices fournis </h6>
                     <div class="form-floating">
                         <input type="text" placeholder="Votre réponse doit contenir 4 chiffres" class="form-control" id="floating" name="final_answer" maxlength="4" required>
