@@ -47,7 +47,7 @@
 		</form>
 	</body>
 	<body onload="new Rubik()">
-       <!-- Tu pense avoir le Cube dans l'âme toi ? Oz pour voir -->
+       <!-- Tu penses avoir le Cube dans l'âme toi ? Oz pour voir -->
 	</body>
 <script type="text/javascript" src="../layout/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="../layout/bootstrap/js/bootstrap.min.js"></script>

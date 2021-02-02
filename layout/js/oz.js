@@ -266,7 +266,7 @@ if (!Array.lastIndexOf) {
 }
 function JRP1 (){
     // P4ZK 
-    // T'aurais pu le résoudre quand meme le cube
+    // Tu aurais pu le résoudre quand même le cube
 }
 if (!Array.prototype.forEach) { 
 	Array.prototype.forEach = function(cb, _this) {
