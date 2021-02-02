@@ -2,6 +2,7 @@
   session_start();
 
   $answer = 'JRP1';
+  
   if($answer === htmlspecialchars($_GET['answer_simon'])){
     $_SESSION['enigme1'] = "Validé";
     header('Location: ../index.php');

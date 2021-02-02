@@ -1,5 +1,6 @@
 <?php 
     session_start();
+    
     $_SESSION['ip_address'] = $_SERVER['REMOTE_ADDR'];
     $ip_caracteres = str_replace(".", "",$_SESSION['ip_address']);
     $ip_last_caracteres = substr($ip_caracteres, -4);

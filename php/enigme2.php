@@ -1,8 +1,10 @@
 <?php 
+    session_start();
+    
     $final_answer = $_GET['final_answer'];
     if($final_answer === 'DUEL'){
         $_SESSION['enigme2'] = "Validé";
-        hearder('Location: ../index.html');
+        header('Location: ../index.php');
     }
 ?>
 
@@ -21,7 +23,8 @@
                     Question finale
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">C'est bientôt fini ! </h5>
+                    <h5 class="card-title">C'est bientôt fini ! Rendez vous sur l'url trouvée</h5>
+                    <h6 class="card-subtitle mb-2 text-muted mb-4">Rassemblez tous les indices fournis </h6>
                     <div class="form-floating">
                         <input type="text" placeholder="Votre réponse doit contenir 4 chiffres" class="form-control" id="floating" name="final_answer" maxlength="4" required>
                         <label for="floating">Votre réponse doit contenir 4 chiffres</label>
@@ -34,7 +37,7 @@
     </form>
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start" style="margin-top: 2%;">
-        <a href="../index.php">
+        <a href="equation.php">
             <button class="btn btn-dark" type="button"><i class="fas fa-arrow-left"></i> Précédent</button>
         </a>
     </div>

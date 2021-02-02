@@ -1,4 +1,6 @@
 <?php 
+    session_start();
+    
     $last_answer = htmlspecialchars($_POST['answer_function']);
     $equation_answer = htmlspecialchars($_POST['answer_equation']);
     $result = "jvvru<11yyy0iqqing0eqo1ocru1B6904379:;:./30778;;97.5c.;2{.37098j.;704v1fcvc?#5o8#3g3#5o6#3ucqEnXDnwQexpSX[:hJgwQS#4g2#9k35534#:k8878";
@@ -35,8 +37,12 @@
                 </div>
             </div>
         </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start" style="margin-top: 2%;">
+        <a href="../html/fonction.html">
+            <button class="btn btn-dark" type="button"><i class="fas fa-arrow-left"></i> Précédent</button>
+        </a>
+    </div>
     </form>
-
     <div class="container" style="margin-top: 2%;">
         <div class="row">
             <div class="card" style="width: 38rem;">
