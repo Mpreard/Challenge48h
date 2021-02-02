@@ -1,5 +1,9 @@
 Groupe 13 
 	étape 1 : iwasblind
+	étape 2 : get64baseEncodedInBinary(); => 01001101 00110010 00110101 01000100 01001101 01000111 01010001 01111010 01011010 01000001 00111101 00111101
+										 => M25DMGQzZA==
+										 => Mathéo
+	étape 3 : https://thegoatencryptor.fr/clue
 
 
 Groupe 12
@@ -45,3 +49,6 @@ Groupe 7
 Groupe 6
 	étape 1 : 51°50'55.1"N 0°33'16.6"W -> Giant Lion
 	étape 2 :
+
+Groupe 5 
+	étape 1 : Button display none
