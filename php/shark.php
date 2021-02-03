@@ -19,6 +19,11 @@
             <div class="card text-center">
                 <div class="card-header">
                     Shark
+                    <a style="margin:2%;" type="button" href="../layout/file/twitter-pwd.pcap" download="twitter-pwd.pcap">
+            <button type="button" class="btn btn-warning">
+                Télécharger moi !
+            </button>
+        </a>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Allez vous réussir à récupérer les bonnes informations ? </h5>
@@ -29,7 +34,6 @@
                 </div>
                 <div class="card-footer text-muted">
                     <input class="btn btn-secondary" type="submit"></button>
-                    <a style="margin:2%;" type="button" href="../layout/file/twitter-pwd.pcap" download="twitter-pwd.pcap"><button type="button" class="btn btn-warning">Télécharger moi !</button></a>
                 </div>
         </div>
     </form>
@@ -39,6 +43,7 @@
             <button class="btn btn-dark" type="button"><i class="fas fa-arrow-left"></i> Précédent</button>
         </a>
     </div>
+
 </body>
 <script type="text/javascript" src="../layout/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="../layout/bootstrap/js/bootstrap.min.js"></script>
