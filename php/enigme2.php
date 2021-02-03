@@ -28,7 +28,7 @@
                     <h6 class="card-subtitle mb-2 text-muted mb-4">Rassemblez tous les indices fournis </h6>
                     <div class="form-floating">
                         <input type="text" placeholder="Votre réponse doit contenir 4 caractères" class="form-control" id="floating" name="final_answer" maxlength="4" required>
-                        <label for="floating">Votre réponse doit contenir 4 chiffres</label>
+                        <label for="floating">Votre réponse doit contenir 4 caractères</label>
                     </div>
                 </div>
             <div class="card-footer text-muted">
